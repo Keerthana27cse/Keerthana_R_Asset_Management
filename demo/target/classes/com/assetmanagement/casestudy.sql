@@ -33,11 +33,7 @@ category_id int ,
 asset_model varchar(100), 
 manufacturing_date date, 
 expiry_date date, 
-<<<<<<< HEAD
-asset_value decimal(10,2),
-=======
 asset_value date,
->>>>>>> f5feb45 (Initial Commit)
 asset_image_url varchar(255),
 asset_status enum ('AVAILABLE','ALLOCATED','UNDER_SERVICE','EXPIRED') default 'AVAILABLE',
 created_at timestamp default current_timestamp);
